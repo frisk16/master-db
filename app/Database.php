@@ -6,9 +6,12 @@ class Database
   {
     try {
       $pdo = new PDO(
-        'mysql:dbname=master_db;host=localhost;charset=utf8mb4',
-        'frisk',
-        'Nto1160!',
+        'mysql:
+        dbname=heroku_c7bfd9044b0a20e;
+        host=us-cdbr-east-06.cleardb.net;
+        charset=utf8mb4',
+        'b7144df2232837',
+        '8368b769',
         [
           PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
           PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
