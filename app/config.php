@@ -13,7 +13,7 @@ spl_autoload_register(function($class) {
 
 Token::create();
 
-define('SITE_URL', 'http://'.$_SERVER['HTTP_HOST'].'/public/payment/');
+define('SITE_URL', 'http://'.$_SERVER['HTTP_HOST'].'/public/');
 define('SET_PDO', Database::set_pdo());
 define('MSG_LIST', [
   1 => '※カテゴリーを追加しました。',
