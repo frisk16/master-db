@@ -1,1 +1,1 @@
-web: master-db
+web: gunicorn master-db.wsgi
