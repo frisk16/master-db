@@ -25,7 +25,7 @@
           <a href="<?= SITE_URL.'user/' ?>">ユーザー管理</a>
           <a href="?action=logout" onclick="return logoutAction()">ログアウト</a>
         <?php else: ?>
-     
+          <span></span>
         <?php endif ?>
       </nav>
     </div>
